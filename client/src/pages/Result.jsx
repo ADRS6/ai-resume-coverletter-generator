@@ -15,7 +15,7 @@ const Result = () => {
 
   const generateOutput = async (userInput) => {
     try {
-      const response = await fetch("http://localhost:5000/api/generate", {
+      const response = await fetch("https://ai-resume-coverletter-generator.onrender.com/api/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(userInput),
