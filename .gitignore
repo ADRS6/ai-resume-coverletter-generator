@@ -1,0 +1,7 @@
+# This ensures sensitive or large files (like node_modules and .env) aren't pushed.
+node_modules/
+client/node_modules/
+server/node_modules/
+.env
+dist/
+build/
